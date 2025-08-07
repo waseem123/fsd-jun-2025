@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>T Shirt</td>
+                <td>1</td>
+                <td>500</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Shirt</td>
+                <td rowspan="2">3</td>
+                <td>650</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Jeans</td>
+                <td>1500</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Jacket</td>
+                <td>2</td>
+                <td>2700</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Tie</td>
+                <td>5</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total 5 Products (Qty. 11)</td>
+                <td>5550</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
