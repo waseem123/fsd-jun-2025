@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Form Methods</h3>
+    <ol>
+        <li><b>GET</b>  - Used to fetch the required data from server.</li>
+        <li><b>POST</b> - Used to send and save the new data on the server.</li>
+        <li><b>PUT</b>  - Used to change/update the existing data on the server.</li>
+        <li><b>DELETE</b> - Used to delete any existing data from the server.</li>
+    </ol>
+    <form action="login" method="post">
+        <input type="email" name="email">
+        <input type="password" name="password">
+        <input type="submit" value="Login">
+        <input type="reset" value="Cancel">
+        <hr>
+    </form>
+
+    <form action="save" method="get">
+        <p>
+            <input type="text" placeholder="Name" required>
+        </p>
+        <p>
+            <input type="number" placeholder="Age" min="0" max="150">
+        </p>
+        <p>
+            <input type="email" placeholder="Email">
+        </p>
+        <p>
+            <input type="tel" placeholder="Mobile Number" maxlength="10" minlength="10">
+        </p>
+        
+        <p>
+            <input type="text" placeholder="DOB" value="15th Aug">
+        </p>
+        <p>
+            <input type="text" placeholder="City" value="Solapur" readonly>
+        </p>
+        <p>
+            <input type="text" placeholder="State" value="Maharashtra" disabled>
+        </p>
+        <p>
+            <input name="myrange" type="range" step="100" placeholder="Range" min="100" max="1000">
+        </p>
+        <p>
+            <input type="color">
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>
