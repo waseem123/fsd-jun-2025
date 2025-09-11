@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2,
+        p,
+        hr {
+            margin: 8px;
+        }
+
+        div p {
+            font-size: 24px;
+        }
+
+        div>p {
+            color: green;
+        }
+
+        /* next sibling selector */
+        div+h2 {
+            color: blue;
+        }
+
+        /* all sibling selector */
+        div~h2 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Heading 1</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quis sapiente nulla a ratione corporis,
+        doloribus natus accusantium accusamus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+        culpa facilis atque. Quia sit est eaque! Asperiores libero inventore reiciendis quis maiores nisi eligendi,
+        ducimus tempora corrupti saepe molestias quas?
+    </p>
+    <hr>
+
+    <div>
+        <h2>Heading 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quis sapiente nulla a ratione
+            corporis,
+            doloribus natus accusantium accusamus!
+        </p>
+    </div>
+
+    <hr>
+
+    <h2>Heading 3</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quis sapiente nulla a ratione corporis,
+        doloribus natus accusantium accusamus!
+    </p>
+    <hr>
+
+    <div>
+        <h2>Heading 4</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quis sapiente nulla a ratione
+            corporis,
+            doloribus natus accusantium accusamus!
+        </p>
+    </div>
+    <hr>
+
+    <div>
+        <h2>Heading 5</h2>
+        <header>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quis sapiente nulla a ratione
+                corporis,
+                doloribus natus accusantium accusamus!
+            </p>
+        </header>
+    </div>
+
+    <h2>Heading 6</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quis sapiente nulla a ratione
+        corporis,
+        doloribus natus accusantium accusamus!
+    </p>
+    <hr>
+</body>
+
+</html>
