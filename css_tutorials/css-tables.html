@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(175, 57, 57);
+            padding: 8px;
+            border-collapse: collapse;
+        }
+
+        .name::first-letter{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>CITY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="name">James</td>
+                <td>Solapur</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td class="name">Roger</td>
+                <td>Pune</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td class="name">Sam</td>
+                <td>Mumbai</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td class="name">John</td>
+                <td>Chennai</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total 4 Elements</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
